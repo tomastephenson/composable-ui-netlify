@@ -1,0 +1,13 @@
+backend:
+  name: git-gateway
+  branch: main # Replace "main" with your branch name if it's different
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: pages
+    label: Pages
+    folder: src/pages
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Body, name: body, widget: markdown }
