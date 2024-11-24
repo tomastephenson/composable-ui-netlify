@@ -12,6 +12,8 @@ command = "pnpm build"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+[[plugins]]
 package = "@netlify/visual-editor"
 
 [template.environment]
